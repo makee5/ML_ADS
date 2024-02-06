@@ -27,3 +27,7 @@ git remote add upstream https://github.com/jcorreia11/si.git
 git pull upstream main
 git push origin main
 ```
+
+Repository organization:
+
+- [materials/](materials): contains the slides and other materials used in the classes.
