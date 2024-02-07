@@ -23,7 +23,7 @@ git clone https://github.com/jcorreia11/ML_ADS.git
     Finally, you need to merge the original repo into your forked repo.
 
 ```bash
-git remote add upstream https://github.com/jcorreia11/si.git
+git remote add upstream https://github.com/jcorreia11/ML_ADS.git
 git pull upstream main
 git push origin main
 ```
