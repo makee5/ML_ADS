@@ -3,6 +3,12 @@
 ## Curricular Unit
 Machine Learning, Applied Data Science, Catholic University of Portugal, 2023-2024.
 
+## Lecturer
+
+Name: João Correia
+E-mail: jfscorreia95@gmail.com
+
+
 ## Description
 Machine Learning exercises for the Applied Data Science Bachelor program.
 
