@@ -6,6 +6,7 @@ Machine Learning, Applied Data Science, Catholic University of Portugal, 2023-20
 ## Lecturer
 
 Name: João Correia
+
 E-mail: jfscorreia95@gmail.com
 
 
