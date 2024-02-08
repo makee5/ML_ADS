@@ -30,4 +30,6 @@ git push origin main
 
 Repository organization:
 
+- [datasets/](datasets): contains the datasets used in the exercises.
 - [materials/](materials): contains the slides and other materials used in the classes.
+- [notebooks/](notebooks): contains the Jupyter notebooks with the exercises and examples.
