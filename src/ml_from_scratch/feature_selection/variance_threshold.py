@@ -34,6 +34,7 @@ class VarianceThreshold(Transformer):
         """
         self.threshold = threshold
         self.variances = None
+        self.selected_features = None
 
     def _fit(self, x: pd.DataFrame, y: Union[pd.DataFrame, pd.Series] = None) -> 'VarianceThreshold':
         """
@@ -47,6 +48,7 @@ class VarianceThreshold(Transformer):
             Ignored.
         """
         self.variances = x.var()
+        self.selected_features = self.variances > self.threshold
         return self
 
     def _transform(self, x: pd.DataFrame, y: Union[pd.DataFrame, pd.Series] = None) -> pd.DataFrame:
@@ -63,7 +65,7 @@ class VarianceThreshold(Transformer):
         pd.DataFrame
             The transformed data.
         """
-        return x.loc[:, self.variances > self.threshold]
+        return x.loc[:, self.selected_features]
 
 
 if __name__ == '__main__':
