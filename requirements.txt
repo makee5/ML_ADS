@@ -3,3 +3,4 @@ pandas==2.1.0
 notebook
 matplotlib==3.8.2
 seaborn==0.13.2
+umap-learn==0.5.5
