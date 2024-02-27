@@ -16,10 +16,10 @@ Machine Learning exercises for the Applied Data Science Bachelor program.
 ## Setup
 To get started, fork this repository and clone it to your local machine.
 
-First, click on the fork button and the run:
+First, click on the fork button and then run:
 
 ```bash
-git clone https://github.com/jcorreia11/ML_ADS.git
+git clone https://github.com/<YOUR_USERNAME>/ML_ADS.git
 ```
 
 ## Update your fork with the latest changes from the original repository
@@ -40,3 +40,4 @@ Repository organization:
 - [datasets/](datasets): contains the datasets used in the exercises.
 - [materials/](materials): contains the slides and other materials used in the classes.
 - [notebooks/](notebooks): contains the Jupyter notebooks with the exercises and examples.
+- [src/ml_from_scratch/](src/ml_from_scratch): contains the source code for the machine learning algorithms implemented from scratch.
