@@ -32,7 +32,7 @@ class Model(ABC):
         return self
 
     @abstractmethod
-    def _fit(self, x: pd.DataFrame, y: Union[pd.DataFrame, pd.Series]) -> None:
+    def _fit(self, x: pd.DataFrame, y: Union[pd.DataFrame, pd.Series]) -> 'Model':
         """
         Fit the model to the data.
 
