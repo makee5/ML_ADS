@@ -45,7 +45,7 @@ class KNNClassifier(Model):
         # attributes
         self.dataset = None
 
-    def _fit(self, x: pd.DataFrame, y: Union[pd.DataFrame, pd.Series]) -> None:
+    def _fit(self, x: pd.DataFrame, y: Union[pd.DataFrame, pd.Series]) -> 'KNNClassifier':
         """
         It fits the model to the given dataset
 
